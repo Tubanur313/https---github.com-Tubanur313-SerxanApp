@@ -1,0 +1,70 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+.navbar {
+    border-bottom: #006ecd 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url(/img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 700px;
+}
+
+#home-section .fas {
+    background-color: white;
+    color: #006ecd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#home-section .container {
+    padding-top: 120px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.create-section {
+    width: 100%;
+}
+
+.create-section,
+.share-section {
+    background-color: #006ecd;
+}
+
+.create-section .container a,
+.share-section .container a {
+    color: white;
+}
+
+#create-section .fas {
+    background-color: white;
+    color: #006ecd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#share-section {
+    background-color: white;
+}
