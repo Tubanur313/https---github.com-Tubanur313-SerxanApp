@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ListMember } from '../models/ListMember';
+import { ListMember } from '../models/listMember';
+
 
 @Component({
   selector: 'app-new-cmp',
@@ -11,7 +12,7 @@ import { ListMember } from '../models/ListMember';
 
 export class NewCmpComponent implements OnInit {
 
-  
+  panelOpenState = false;
   test = "Test 1";
   test_2 = "Test 2";
   test_3 = this.test + " " + this.test_2;
